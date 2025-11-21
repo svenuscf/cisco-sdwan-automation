@@ -1,0 +1,19 @@
+# vManage creds (encrypted)
+vmanage_creds.yml
+
+# Any variant or backup of vault creds
+vmanage_creds*.yml
+*.vault.yml
+*.enc.yml
+
+# Vault password file
+.ansible_vault_pass.txt
+*.vault_pass
+*vault_pass.txt
+
+# Python caches
+__pycache__/
+*.pyc
+
+# CSV files
+*.csv
