@@ -7,11 +7,13 @@ Instead, they load the URL, username, and password securely from an encrypted fi
 using Ansible Vault.
 
 1. Files in This Folder
+```
 File			Purpose
 creds_loader.py		Module that decrypts the credential file using ansible-vault view
 vmanage_creds.yml	Your encrypted credential file (contains URL/username/password)
 control_status.py	Example script that loads credentials automatically
 device.py		Inventory script also using the same loader
+```
 
 2. Location of Credential File
 
